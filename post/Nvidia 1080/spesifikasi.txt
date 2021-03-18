@@ -1,0 +1,23 @@
+
+VGA ASUS Nvidia GTX 1080
+harga :Rp 20.500.000
+
+spesifikasi 
+11GB GDDR5X (352-bit)
+
+Core/Memory
+Boost Clock / Base Clock / Memory Frequency
+1683 MHz / 1569 MHz / 11124 MHz (OC Mode)
+1657 MHz / 1544 MHz / 11016 MHz (Gaming Mode)
+1582 MHz / 1480 MHz / 11016 MHz (Silent Mode)
+11GB GDDR5X
+The Ultimate GAMING: TWIN FROZR VI
+Smooth Heat Pipes: Squared shape at bottom maximize heat transfer from the copper base plate.
+Zero Frozr: Stopping the fan in low-load situations, keeping a noise-free environment.
+Airflow Control: Technology Deflectors thrusts air onto heat pipes for lower temperatures and better gaming.
+TORX FAN 2.0: Supremely silent
+Dispersion fan blade: Steeper curved blade accelerating the airflow.
+Traditional fan blade: Provides steady airflow to massive heat sink below.
+Double ball bearing: Strong and lasting core for years of smooth gaming.
+Gaming App
+Instant Performance Gain: Unlock extra performance or keep your card silent during light use in one click.

@@ -1,0 +1,13 @@
+AMD Ryzen 5 2400G with Radeon RX Vega 11 Graphics
+harga : Rp 2.395.000
+
+Specifications 
+# of CPU Cores 4
+# of Threads 8
+# of GPU Cores 11
+Base Clock 3.6GHz
+Max Boost Clock 3.9GHz
+Total L2 Cache 2MB
+Total L3 Cache 4MB
+Default TDP / TDP 65W
+cTDP 46-65W

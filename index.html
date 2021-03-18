@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="img/png" href="Logo/Icon.png" width="100%">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script> 
+		$(document).ready(function(){
+		    $("#1").click(function(){
+		        $("#panel").slideToggle("fast");
+		        $("#panel1").slideUp("fast");
+		        $("#panel2").slideUp("fast");
+		        $("#panel3").slideUp("fast");
+		    });
+		    $("#2").click(function(){
+		        $("#panel").slideUp("fast");
+		        $("#panel2").slideUp("fast");
+		        $("#panel3").slideUp("fast");
+		        $("#panel1").slideToggle("fast");
+		    });
+		    $("#3").click(function(){
+		        $("#panel2").slideToggle("fast");
+		        $("#panel").slideUp("fast");
+		        $("#panel1").slideUp("fast");
+		        $("#panel3").slideUp("fast");
+		    });
+		    $("#4").click(function(){
+		        $("#panel3").slideToggle("fast");
+		        $("#panel").slideUp("fast");
+		        $("#panel1").slideUp("fast");
+		        $("#panel2").slideUp("fast");
+		    });
+		})
+	</script>
+	<title>HOME | Daily Technology</title>
+</head>
+<body>
+	<!-- Panel pertama -->
+	<div id="panel">
+		<h1 style="margin-left: 10px;"> Produk Terbaru </h1>
+		<div class="gridmenu">
+			<img class="barang" src="Background/phoco.jpg">
+			<div class="judul">
+				<a href="Phocophone.html">Xiaomi Pocophone F1</a></div>
+			<div class="nama"> Rp 5.079.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="Background/roglaptop.jpg">
+			<div class="judul">
+				<a href="rog.html">ASUS ROG GL503GE-EN023T 3</a></div>
+			<div class="nama"> Rp 25.500.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="Background/macc.jpg">
+			<div class="judul">
+				<a href="macbook.html">Macbook Pro 13</a></div>
+			<div class="nama"> Rp 17.950.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="Background/predator.jpg">
+			<div class="judul">
+				<a href="acerp.html">ACER PREDATOR HELIOS 300</a></div>
+			<div class="nama"> Rp 25.990.000
+			</div>		
+		</div>
+		<div>
+			<a href="listinfo.html" class="see" style="">Lihat Semua</a>
+		</div>
+	</div>
+
+	<!-- Panel kedua -->
+	<div id="panel1">
+		<h1 style="margin-left: 10px;"> Handphone </h1>
+		<div class="gridmenu">
+			<img class="barang" src="post/iphone/4.jpg">
+			<div class="judul">
+				<a href="iphonex.html"> iPhone X 64GB Space Gray </a></div>
+			<div class="nama"> Rp 14.650.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="post/I Phone 7/1.jpg">
+			<div class="judul">
+				<a href="iphone.html">Apple iPhone 7 Red 128 GB</a></div>
+			<div class="nama"> Rp 15.950.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="Images/OPPO Find X.jpg">
+			<div class="judul">
+				<a href="oppof9.html">Oppo Find X</a></div>
+			<div class="nama"> Rp. 3.798.800
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="post/Samsung Note 9/1.jpg">
+			<div class="judul">
+				<a href="note9.html">Samsung Galaxy Note 9</a></div>
+			<div class="nama"> Rp 20.500.000
+			</div>		
+		</div>
+		<div>
+			<a href="listhandphone.html" class="see">Lihat Semua</a>
+		</div>
+	</div>
+	
+	<!-- Panel ketiga -->
+	<div id="panel2">
+		<h1 style="margin-left: 10px;"> Laptop </h1>
+		<div class="gridmenu">
+			<img class="barang" src="post/Acer predator/6.jpg">
+			<div class="judul">
+				<a href="acerp.html"> Acer Predator Helios 300 </a></div>
+			<div class="nama"> Rp 25.990.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="Background/roglaptop.jpg">
+			<div class="judul">
+				<a href="rog.html">ASUS ROG GL503GE-EN023T </a></div>
+			<div class="nama"> Rp 25.500.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="post/Legion/1.jpg">
+			<div class="judul">
+				<a href="lenovo legion.html">Lenovo Legion y520</a></div>
+			<div class="nama"> Rp.10.500.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="Background/macc.jpg">
+			<div class="judul">
+				<a href="macbook.html">Macbook Pro 13</a></div>
+			<div class="nama"> Rp 17.950.000
+			</div>		
+		</div>
+		<div>
+			<a href="listlaptop.html" class="see">Lihat Semua</a>
+		</div>
+	</div>
+
+	<!--Panel Keempat -->
+	<div id="panel3">
+		<h1 style="margin-left: 10px;"> Perangkat lain </h1>
+		<div class="gridmenu">
+			<img class="barang" src="post/Amd rx/4.jpg">
+			<div class="judul">
+				<a href="amdrx.html">AMD RX 580 RX580 4GB Maxsun</a></div>
+			<div class="nama"> Rp. 3.000.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="post/Intel/4.jpg">
+			<div class="judul">
+				<a href="inteli9.html">INTEL CORE I9 7900X 3.3Ghz SOCKET 2066</a></div>
+			<div class="nama"> Rp 13.750.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="post/Amd ryzen/1.png">
+			<div class="judul">
+				<a href="amdryzen.html">AMD Ryzen 5 2400G</a></div>
+			<div class="nama"> Rp 2.395.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="post/Ram/1.jpg">
+			<div class="judul">
+				<a href="ramcosair.html">Corsair Vengeancer</a></div>
+			<div class="nama"> Rp 1.350.000
+			</div>		
+		</div>
+		<div>
+			<a href="listperangkat.html" class="see">Lihat Semua</a>
+		</div>
+	</div>
+
+	<!-- Navigasi -->
+	<div class="navigasi"> 
+		<ul>
+			<img src="Logo/hitam.png" class="glogo">
+			<li class="linknya" id="1"> Produk Terbaru</li>
+			<li class="linknya" id="2"> Handphone</li>
+			<li class="linknya" id="3"> Laptop</li>
+			<li class="linknya" id="4"> Perangkat Lain</li>
+		</ul>
+	</div>
+
+	<!-- Isi Artikel -->
+	<div class="parallax">
+ 		 <div class="text">Daily technology</div>
+	</div>
+	<div class="menu">
+		<div style="overflow: hidden;">
+			<div class="gridbagi3" id="f1">
+				<img src="post/Oppo f9/1.jpg">
+				<div class="kata3">
+					<b> <a href="oppof9.html" style="text-decoration: none;"> Oppo F9  </a> </b> <br>
+					Lihat spesifikasi Oppo f9
+				</div>
+			</div>
+			<div class="gridbagi3" id="f2">
+				<img src="post/pocophone/1.jpg">
+				<div class="kata3" id="f2">
+					<b> <a href="phocophone.html" style="text-decoration: none;"> Xiaomi Pocophone  </a> </b> <br>
+					Lihat spesifikasi Pocophone <br>
+				</div>
+			</div>
+			<div class="gridbagi3" id="f3">
+				<img src="post/Macbook pro/1.jpg">
+				<div class="kata3">
+					<b> <a href="macbook.html" style="text-decoration: none;"> Macbook Pro  </a> </b> <br>
+					Lihat Spesifikasi Macbook <br>
+				</div>
+			</div>
+		</div>
+		<div style="overflow: hidden; margin-top: 65px;">
+			<div class="gridbagi2" style="padding: 10px;">
+				<div class="kata2">
+				<img src="post/Asus ROG/1.jpg">
+					<b> <a href="rog.html" style="text-decoration: none;"> Gaming dengan 60 Fps?  </a> </b> <br>
+					Asus Rog
+				</div>
+			</div>
+			<div class="gridbagi2" style="padding: 10px;">
+				<img src="post/ram/2.jpg">
+				<div class="kata2">
+					<b> <a href="ramcosair.html" style="text-decoration: none;"> Ram cosair  </a> </b> 
+					<br>Spesifikasi dan harga
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="menu">
+		<div class="gridbagi3">
+			<b>About</b><br>
+			<p style="text-align: justify; font-size: 13px">
+				Aplikasi web dibuat pada tahun 2018. Oleh sekelompok mahasiswa Universitas Telkom program studi D3 Teknik Informatika
+			</p>
+		</div>
+		<div class="gridbagi3">
+			<div class="gridbagi2" style="padding: 0">
+				<b>Address</b><br>
+				<p style="font-size: 13px">
+					Telkom University Jln. Telekomunikasi no.1
+				</p>
+			</div>
+			<div class="gridbagi2">
+				<b>Contact</b><br>
+				<p style="font-size: 13px">
+					Email us <br>
+					dailytechnology@gmail.com
+				</p>
+			</div>
+		</div>
+		<div class="gridbagi3">
+			<div class="gridbagi2">
+				<b>Follow us</b><br>
+				<p style="font-size: 13px">
+					Instagram <br>
+					Facebook <br>
+					Twitter <br>
+				</p>
+			</div>
+			<div class="gridbagi2">
+				
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(window).scroll(function() {    
+		    var scroll = $(window).scrollTop();
+
+		    if (scroll >= 200) {
+		        $(".navigasi").addClass("rubah");
+		        $(".linknya").addClass("ganti")
+		    } 
+		    else if (scroll >=500){
+		    	$("#f1").fadeIn();
+		    	$("#f2").fadeIn();
+		    	$("#f3").fadeIn();
+			}else {
+		        $(".navigasi").removeClass("rubah");
+		        $(".linknya").removeClass("ganti")    
+		    }
+		});
+	</script>
+</body>
+</html>

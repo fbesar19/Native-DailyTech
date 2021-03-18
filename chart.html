@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="img/png" href="Logo/Icon.png" width="100%">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script> 
+		$(document).ready(function(){
+		    $("#1").click(function(){
+		        $("#panel").slideToggle("fast");
+		        $("#panel1").slideUp("fast");
+		        $("#panel2").slideUp("fast");
+		        $("#panel3").slideUp("fast");
+		    });
+		    $("#2").click(function(){
+		        $("#panel").slideUp("fast");
+		        $("#panel2").slideUp("fast");
+		        $("#panel3").slideUp("fast");
+		        $("#panel1").slideToggle("fast");
+		    });
+		    $("#3").click(function(){
+		        $("#panel2").slideToggle("fast");
+		        $("#panel").slideUp("fast");
+		        $("#panel1").slideUp("fast");
+		        $("#panel3").slideUp("fast");
+		    });
+		    $("#4").click(function(){
+		        $("#panel3").slideToggle("fast");
+		        $("#panel").slideUp("fast");
+		        $("#panel1").slideUp("fast");
+		        $("#panel2").slideUp("fast");
+		    });
+		})
+	</script>
+	<title>CHART | Daily Technology</title>
+</head>
+<body>
+	<!-- Panel pertama -->
+	<div id="panel">
+		<h1 style="margin-left: 10px;"> Produk Terbaru </h1>
+		<div class="gridmenu">
+			<img class="barang" src="Background/phoco.jpg">
+			<div class="judul">
+				<a href="Phocophone.html">Xiaomi Pocophone F1</a></div>
+			<div class="nama"> Rp 5.079.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="Background/roglaptop.jpg">
+			<div class="judul">
+				<a href="rog.html">ASUS ROG GL503GE-EN023T 3</a></div>
+			<div class="nama"> Rp 25.500.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="Background/macc.jpg">
+			<div class="judul">
+				<a href="macbook.html">Macbook Pro 13</a></div>
+			<div class="nama"> Rp 17.950.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="Background/predator.jpg">
+			<div class="judul">
+				<a href="acerp.html">ACER PREDATOR HELIOS 300</a></div>
+			<div class="nama"> Rp 25.990.000
+			</div>		
+		</div>
+		<div>
+			<a href="listinfo.html" class="see" style="">Lihat Semua</a>
+		</div>
+	</div>
+
+	<!-- Panel kedua -->
+	<div id="panel1">
+		<h1 style="margin-left: 10px;"> Handphone </h1>
+		<div class="gridmenu">
+			<img class="barang" src="post/iphone/4.jpg">
+			<div class="judul">
+				<a href="iphonex.html"> iPhone X 64GB Space Gray </a></div>
+			<div class="nama"> Rp 14.650.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="post/I Phone 7/1.jpg">
+			<div class="judul">
+				<a href="iphone.html">Apple iPhone 7 Red 128 GB</a></div>
+			<div class="nama"> Rp 15.950.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="Images/OPPO Find X.jpg">
+			<div class="judul">
+				<a href="oppof9.html">Oppo Find X</a></div>
+			<div class="nama"> Rp. 3.798.800
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="post/Samsung Note 9/1.jpg">
+			<div class="judul">
+				<a href="note9.html">Samsung Galaxy Note 9</a></div>
+			<div class="nama"> Rp 20.500.000
+			</div>		
+		</div>
+		<div>
+			<a href="listhandphone.html" class="see">Lihat Semua</a>
+		</div>
+	</div>
+	
+	<!-- Panel ketiga -->
+	<div id="panel2">
+		<h1 style="margin-left: 10px;"> Laptop </h1>
+		<div class="gridmenu">
+			<img class="barang" src="post/Acer predator/6.jpg">
+			<div class="judul">
+				<a href="acerp.html"> Acer Predator Helios 300 </a></div>
+			<div class="nama"> Rp 25.990.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="Background/roglaptop.jpg">
+			<div class="judul">
+				<a href="rog.html">ASUS ROG GL503GE-EN023T </a></div>
+			<div class="nama"> Rp 25.500.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="post/Legion/1.jpg">
+			<div class="judul">
+				<a href="lenovo legion.html">Lenovo Legion y520</a></div>
+			<div class="nama"> Rp.10.500.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="Background/macc.jpg">
+			<div class="judul">
+				<a href="macbook.html">Macbook Pro 13</a></div>
+			<div class="nama"> Rp 17.950.000
+			</div>		
+		</div>
+		<div>
+			<a href="listlaptop.html" class="see">Lihat Semua</a>
+		</div>
+	</div>
+
+	<!--Panel Keempat -->
+	<div id="panel3">
+		<h1 style="margin-left: 10px;"> Perangkat lain </h1>
+		<div class="gridmenu">
+			<img class="barang" src="post/Amd rx/4.jpg">
+			<div class="judul">
+				<a href="amdrx.html">AMD RX 580 RX580 4GB Maxsun</a></div>
+			<div class="nama"> Rp. 3.000.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="post/Intel/4.jpg">
+			<div class="judul">
+				<a href="inteli9.html">INTEL CORE I9 7900X 3.3Ghz SOCKET 2066</a></div>
+			<div class="nama"> Rp 13.750.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="post/Amd ryzen/1.png">
+			<div class="judul">
+				<a href="amdryzen.html">AMD Ryzen 5 2400G</a></div>
+			<div class="nama"> Rp 2.395.000
+			</div>		
+		</div>
+		<div class="gridmenu">
+			<img class="barang" src="post/Ram/1.jpg">
+			<div class="judul">
+				<a href="ramcosair.html">Corsair Vengeancer</a></div>
+			<div class="nama"> Rp 1.350.000
+			</div>		
+		</div>
+		<div>
+			<a href="listperangkat.html" class="see">Lihat Semua</a>
+		</div>
+	</div>
+
+	<!-- Navigasi -->
+	<div class="navigasi" style="background: white;"> 
+		<ul>
+			<a href="index.html"><img src="Logo/hitam.png" class="glogo"></a>
+			<li class="linknya hitam" id="1"> Produk Terbaru</li>
+			<li class="linknya hitam" id="2"> Handphone</li>
+			<li class="linknya hitam" id="3"> Laptop</li>
+			<li class="linknya hitam" id="4"> Perangkat Lain</li>
+		</ul>
+	</div>
+
+	<div class="menu" style="padding: 0px; width: 100%;">
+		<div class="grid30" style="width: 38%;">
+			<b>Checkout</b>
+			<hr>
+			<div class="checkbox">
+				<img src="post/iphone/1.jpg">
+				<div style="font-size: 14px; width: 70%; margin-top: 15px;">
+					Apple iPhone X Red<br>
+					warna merah
+				</div>
+				<div style="font-size: 14px; float: right; margin-top: -25px;">
+					<b>Rp. 14.000.000</b>
+				</div>
+			</div>
+			<div class="checkbox" style="border-bottom: none;">
+				<img src="post/Oppo f9/4.jpeg">
+				<div style="font-size: 14px; width: 70%; margin-top: 15px;">
+					Oppo Find 9<br>
+					warna black
+				</div>
+				<div style="font-size: 14px; float: right; margin-top: -25px;">
+					<b>Rp. 4.000.000</b>
+				</div>
+			</div>
+			<hr>
+			<p>Total Harga : 18.000.000;</p>
+		</div>
+		<div class="chart70" style="padding-top: 60px;">
+			<b>1. Details</b>
+			<table style="width: 100%; margin-top: 30px;">
+				<tr>
+					<td width="50%"><input type="text" name="" style="width: 96%; padding: 20px;" placeholder="Email*"></td>
+					<td colspan="3"><input type="text" name="" style="width: 98%;  padding: 20px;" placeholder="Nomor Telephone"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="" style="width: 96%; padding: 20px;" placeholder="Nama Depan*"></td>
+					<td  colspan="3"><input type="text" name="" style="width: 98%;  padding: 20px;" placeholder="Nama Belakang*"></td>
+				</tr>
+				<tr>
+					<td><select style="width: 96%; padding:  20px;">
+					  <option value="Banten">Banten</option>
+					  <option value="Jakarta">Jakarta</option>
+					  <option value="Jawa Barat">Jawa Barat</option>
+					  <option value="Jawa Tengah">Jawa Tengah</option>
+					  <option value="Jawa Timur"></option>
+					</select></td>
+					<td><input type="text" name="" style="width: 98%;  padding: 20px;" placeholder="Kode Pos*"></td>
+					<td><input type="text" name="" style="width: 97%;  padding: 20px;" placeholder="Nomer Rumah"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="" style="width: 96%; padding: 20px;" placeholder="Street Name*"></td>
+					<td colspan="3"><input type="text" name="" style="width: 98%;  padding: 20px;" placeholder="City*"></td>
+				</tr>
+				<tr>
+					<td><select style="width: 96%; padding:  20px;">
+					  <option value="kurir">--Pilih kurir--</option>
+					  <option value="kurir1">J&E Reg - 10.000</option>
+					  <option value="kurir2">J&E Yes - 15.000</option>
+					  <option value="kurir3">J&T Express - 11.000</option>
+					  <option value="kurir4">Pos 10.000</option>
+					</select></td>
+				</tr>
+			</table>
+			<input type="submit" name="" value="Proses" class="buttonproses">
+		</div>	
+	</div>
+
+	<!-- Footer -->
+	<script type="text/javascript">
+		$(window).scroll(function() {    
+		    var scroll = $(window).scrollTop();
+
+		    if (scroll >= 200) {
+		        $(".navigasi").addClass("rubah");
+		        $(".linknya").addClass("ganti")
+		    } else {
+		        $(".navigasi").removeClass("rubah");
+		        $(".linknya").removeClass("ganti")    
+		    }
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+Corsair Vengeance Memory ram PC DDR3 8gb
+harga : Rp 1.350.000
+
+
+
+1 x 8GB memory modules
+Compatibility
+
+Intel and AMD Processor platforms
+Technical Specifications
+
+Density: 8GB (1x8GB)
+Speed: 1600MHz
+Tested Latency: 9-9-9-24
+Voltage: 1.5V
+
+Format: Unbuffered DIMM
+Pin Out: 240 Pin
+Intel XMP 1.3
+Heatspreader: Vengeance
